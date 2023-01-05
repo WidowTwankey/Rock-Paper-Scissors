@@ -5,6 +5,8 @@ let choices = ['Rock', 'Paper', 'Scissors']
 
 let comChoice = Math.floor(Math.random() * choices.length);
 
+//for (int counter=0; counter < 10; counter++)
+
 if (userInput === "Rock" && comChoice === "Rock" ) {
     console.log("It's a tie.")
 } else (userInput === "Rock" && comChoice === "Scissors" ) {
@@ -23,6 +25,9 @@ if (userInput === "Rock" && comChoice === "Rock" ) {
     console.log("It's a tie.")
 } else (userInput === "Scissors" && comChoice === "Paper" ) {
     console.log("You win!")
+}
+
+
 
 
 
