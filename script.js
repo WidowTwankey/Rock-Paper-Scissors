@@ -1,18 +1,36 @@
-- prompt user to choose rock, paper or scissors
+
 let userInput = prompt("Choose Rock, Paper or Scissors")
-switch (userInput){
-    case 1:
-        break;
-    case 2:
-        break;
-    case 3: 
-        break;
-    }
+
+let choices = ['Rock', 'Paper', 'Scissors']
+
+let comChoice = Math.floor(Math.random() * choices.length);
+
+if (userInput === "Rock" && comChoice === "Rock" ) {
+    console.log("It's a tie.")
+} else (userInput === "Rock" && comChoice === "Scissors" ) {
+    console.log("You win!")
+} else (userInput === "Rock" && comChoice === "Paper" ) {
+    console.log("You lose, loser.")
+} else (userInput === "Paper" && comChoice === "Rock" ) {
+    console.log("You win!")
+} else (userInput === "Paper" && comChoice === "Scissors" ) {
+    console.log("You lose, loser.")
+} else (userInput === "Paper" && comChoice === "Paper" ) {
+    console.log("It's a tie.")
+} else (userInput === "Scissors" && comChoice === "Rock" ) {
+    console.log("You lose, loser.")
+} else (userInput === "Scissors" && comChoice === "Scissors" ) {
+    console.log("It's a tie.")
+} else (userInput === "Scissors" && comChoice === "Paper" ) {
+    console.log("You win!")
 
 
 
 
 
+
+
+- prompt user to choose rock, paper or scissors
 
 - random generator rock, paper or scissors
 
